@@ -6,4 +6,9 @@ this repository holds barebone code to enable persistent sessions with passport 
 # npm install
 # mongodb
 install mongodb, create database, add conf.js in root such as
-`module.exports = { mongodbURL : 'mongodb://admin:peerby1234@localhost/peerby', mongodbName : 'peerby' }`
+```javascript
+module.exports = {
+  mongodbURL : 'mongodb://admin:peerby1234@localhost/peerby',
+  mongodbName : 'peerby'
+}
+```
