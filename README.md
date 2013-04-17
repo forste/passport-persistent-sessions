@@ -9,7 +9,7 @@ install mongodb, create database, add conf.js in root such as
 
 ```javascript
 module.exports = {
-  mongodbURL : 'mongodb://admin:peerby1234@localhost/peerby',
-  mongodbName : 'peerby'
+  mongodbURL : 'mongodb://USER:PASSWORD@localhost/DBNAME',
+  mongodbName : 'DBNAME'
 }
 ```
