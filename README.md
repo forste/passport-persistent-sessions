@@ -2,9 +2,9 @@
 
 this repository holds barebone code to enable persistent sessions with passport on expressjs/nodejs
 
-## setup
-# npm install
-# mongodb
+# setup
+* npm install
+* mongodb
 install mongodb, create database, add conf.js in root such as
 
 ```javascript
